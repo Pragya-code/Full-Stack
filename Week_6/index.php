@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +13,7 @@
     <h1> Library Management System</h1>
     <p class="subtitle">Manage your books easily and efficiently</p>
 
-    <!-- Add Book Card -->
+    <!-- Add Book -->
     <div class="card">
         <h2>Add New Book</h2>
         <form action="add_book.php" method="post">
@@ -24,7 +25,7 @@
         </form>
     </div>
 
-    <!-- Search Card -->
+    <!-- Search Book-->
     <div class="card">
         <h2>Search Books</h2>
         <form action="search.php" method="get">
@@ -71,3 +72,7 @@
 
 </body>
 </html>
+
+
+    
+

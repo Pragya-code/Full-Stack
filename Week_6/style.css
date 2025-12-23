@@ -5,10 +5,11 @@
     font-family: 'Segoe UI', sans-serif;
 }
 
+
 body {
-    background-color: #f2ece6;   /* nude-beige background */
+    background-color: #ffd7ba; 
     padding: 40px;
-    color: #3d3b38;
+    color: #4a3f3a;
 }
 
 .container {
@@ -16,37 +17,35 @@ body {
     margin: auto;
 }
 
-/* Headings */
 h1 {
     text-align: center;
-    color: #3a3530;
+    color: #4a3f3a;
     margin-bottom: 6px;
     letter-spacing: 1px;
 }
 
 .subtitle {
     text-align: center;
-    color: #8a847f;
+    color: #7a5f55;
     margin-bottom: 40px;
     font-size: 14px;
 }
 
-/* Cards */
 .card {
-    background-color: #fcfaf8;   /* soft nude white */
+    background-color: #f8f2ed;
     border-radius: 16px;
     padding: 30px;
     margin-bottom: 30px;
-    box-shadow: 0 12px 30px rgba(0,0,0,0.07);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 .card h2 {
     margin-bottom: 18px;
-    color: #4a433d;
+    color: #5a4740;
     font-weight: 600;
 }
 
-/* Forms */
+
 form {
     display: grid;
     gap: 14px;
@@ -55,40 +54,39 @@ form {
 input {
     padding: 12px;
     border-radius: 10px;
-    border: 1px solid #d8cfc6;
-    background-color: #f7f3ef;
+    border: 1px solid #f8ad9d;
+    background-color: #fff5ef;
     font-size: 14px;
-    color: #3d3b38;
+    color: #4a3f3a;
 }
 
 input::placeholder {
-    color: #9a938c;
+    color: #9a7a6d;
 }
 
 input:focus {
     outline: none;
-    border-color: #c2b3a3;
+    border-color: #f4978e;
     background-color: #ffffff;
 }
 
-/* Buttons */
+
 button {
     padding: 12px;
-    background-color: #c2a78f;   /* nude-tan */
+    background-color: #f4978e; 
     color: #ffffff;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: 14px;
     letter-spacing: 0.5px;
-    transition: all 0.3s ease;
+    transition: 0.3s ease;
 }
 
 button:hover {
-    background-color: #b2967d;
+    background-color: #f8ad9d;
 }
 
-/* Table */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -96,8 +94,8 @@ table {
 }
 
 th {
-    background-color: #e6d8cc;   /* nude header */
-    color: #4a433d;
+    background-color: #fbc4ab; 
+    color: #4a3f3a;
     padding: 14px;
     font-weight: 600;
 }
@@ -105,16 +103,16 @@ th {
 td {
     padding: 14px;
     text-align: center;
-    border-bottom: 1px solid #e1d6cc;
+    border-bottom: 1px solid #f8ad9d;
 }
 
 tr:hover {
-    background-color: #f4eee9;
+    background-color: #fff1e8;
 }
 
-/* Delete link */
+
 .delete-btn {
-    color: #9c6b6b;  /* muted rose-nude */
+    color: #a65a50;
     text-decoration: none;
     font-weight: 500;
 }
